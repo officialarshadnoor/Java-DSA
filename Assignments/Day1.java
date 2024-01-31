@@ -147,16 +147,75 @@ public class Day1 {
 
         // System.out.println("Perimet
 
-        // 14 - Volume Of Cone Java Program
-        // taking input
-        System.out.println("Enter radius and height: ");
-        Scanner s = new Scanner(System.in);
-        int r = s.nextInt();
-        int h = s.nextInt();
+        // // 14 - Volume Of Cone Java Program
+        // // taking input
+        // System.out.println("Enter radius and height: ");
+        // Scanner s = new Scanner(System.in);
+        // int r = s.nextInt();
+        // int h = s.nextInt();
 
-        // vol of cone
-        Double volOfCone = (3.14 * r * r * h) / 3;
-        System.out.println("Volume of cone: " + volOfCone);
+        // // vol of cone
+        // Double volOfCone = (3.14 * r * r * h) / 3;
+        // System.out.println("Volume of cone: " + volOfCone);
+
+        // Fibonacci Series in java program
+
+        // int a = 0, b = 1;
+        // System.out.print(a + " " + b);
+        // int c;
+        // for (int i = 1; i <= 10; i++) {
+        // c = a + b;
+        // System.out.print(" " + c);
+        // a = b;
+        // b = c;
+        // }
+
+        // // Que - Subtract the product and sum of digits of an integer
+
+        // // a- take input
+        // Scanner s = new Scanner(System.in);
+        // System.out.println("Enter the number");
+        // int n = s.nextInt();
+
+        // // b - apply algo
+        // int sum = 0, mul = 1;
+        // while (n > 0) {
+        // int rem = n % 10;
+        // mul *= rem;
+        // sum += rem;
+        // n /= 10;
+        // }
+
+        // int ans = mul - sum;
+        // System.out.println(ans);
+
+        // Print all the factors of the number using loops
+        // take input
+        // Scanner s = new Scanner(System.in);
+        // int n = s.nextInt();
+
+        // for (int i = 1; i <= n; i++) {
+        // if (n % i == 0) {
+        // System.out.println(i + " ");
+        // }
+        // }
+
+        // // Que - Take integer inputs till the user enters 0 and print the sum of all
+        // // numbers
+
+        // Scanner s = new Scanner(System.in);
+        // int sum = 0;
+        // while (true) {
+        // System.out.println("Enter a number: ");
+        // int n = s.nextInt();
+        // sum += n;
+        // if (n == 0) {
+        // break;
+        // }
+        // }
+        // System.out.println(sum);
+
+    
 
     }
 }
